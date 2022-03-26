@@ -356,8 +356,8 @@ polygon:hover {
   .row-main {
     position: relative;
   }
-  .bi bi-list menu-open {
-    font-size: 1.5em;
+  .hamburger {
+    font-size: 1.2em;
   }
   .header-nav {
     position: fixed;
