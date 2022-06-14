@@ -111,14 +111,9 @@ function hideMenuOnClick() {
 document.querySelector(".row-main").addEventListener("click", hideMenuOnClick);
 hamburger.addEventListener("click", toggleMenu);
 //  skills appears on click
-let closeOpenSkills = function (active) {
-  if ((document.querySelector(".my-skills").style.display = "none")) {
-    document.querySelector(".my-skills").style.display = "block";
-  } else if ((document.querySelector(".my-skills").style.display = "block")) {
-    document.querySelector(".my-skills").style.display = "none";
-  }
-};
-
+document.querySelector(".button-skills").addEventListener("click", function(){
+ document.querySelector(".my-skills").style.display = "block";
+})
 // scroll reveal
 let slideUp = {
   distance: "2em",
