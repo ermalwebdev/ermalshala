@@ -132,11 +132,3 @@ for (let i = 0; i < mobileLinks.length; i++) {
     }
   });
 }
-
-window.addEventListener("scroll", function(){
- if(window.pageYOffset <= 200){
-  myMenu.classList.remove("showMenu");
-      menuClose.style.display = "none";
-      menuOpen.style.display = "block";
- }
-}
