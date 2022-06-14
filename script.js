@@ -67,7 +67,12 @@ window.onscroll = function () {
     if (window.pageYOffset === 0) {
       document.querySelector("header").style.boxShadow = "";
     }
-  } else {
+  } if(window.pageYOffset <= 200){
+myMenu.classList.remove("showMenu");
+      menuClose.style.display = "none";
+      menuOpen.style.display = "block";
+  }
+  else {
     document.querySelector("header").style.top = "-5em";
   }
   hideScroll = currentScroll;
